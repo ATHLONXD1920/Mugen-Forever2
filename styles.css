@@ -1,0 +1,511 @@
+
+/* styles.css */
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.147); /* Fondo de la página en rojo */
+    color: rgb(255, 255, 255); /* Color del texto en azul */
+
+    background-image: url('The King Of Figthers.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+    /* Agrega otros estilos según sea necesario */
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.5); /* Color de fondo con transparencia */
+}
+
+/* Estilos para el contenido principal */
+main {
+    margin-top: 20px;
+}
+
+/* Agrega estilos para la animación */
+/*@keyframes move {
+    0% {
+        transform: translateX(50);
+    }
+    50% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX(50);
+    }
+}*/
+
+/*------------------------------------------------*/
+
+/* Aplica la animación a un elemento específico */
+.move-element {
+    
+    font-style: italic;
+    font-size: 5em; /* 2 veces el tamaño normal del texto */
+    color: #2600ff;
+    background-image: url('Kyo y Iori.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    border-radius: 20px;
+    border-bottom: 5px solid #4d4b4baf; /* Agrega un subrayado con color personalizado */
+    animation: parpadeo1 3.5s ease-in-out infinite, moveAnimation 3s linear infinite; /* Agrega la animación de movimiento */
+
+}
+
+/* Define la animación de movimiento */
+@keyframes moveAnimation {
+    0%, 100% {
+      transform: translateY(0); /* No hay movimiento al principio y al final */
+    }
+    50% {
+      transform: translateY(20px); /* Mueve 20px hacia abajo en la mitad de la animación */
+    }
+  }
+
+    /* Definición de la animación de parpadeo */
+    @keyframes parpadeo1 {
+        0%, 50%, 100% {
+          opacity: 1;
+        }
+        25%, 75% {
+          opacity: 0.5;
+        }
+      }
+
+/*------------------------------------------------*/
+
+/* Aplica la animación a un elemento específico */
+.move-element_1 {
+    animation: move 2s ease-in-out infinite;
+    text-align: center;
+    font-style: italic;
+    color: #2600ff;
+    background: linear-gradient(to right, #5555557b, #fff, #555); /* Colores del subrayado en degradado */
+    border-radius: 20px;
+    border-bottom: 5px solid #00000075; /*s Agrega un subrayado con color personalizado */
+
+}
+
+.texto-bicolor {
+  background: linear-gradient(to right, rgb(36, 36, 36), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-style: italic;
+  text-shadow: 2px 1px 1px rgb(255, 0, 0);
+  font-weight: bold; /* Hacer las letras más gruesas */
+  /* Ajusta la sombra según sea necesario */
+}
+
+/*------------------------------------------------*/
+
+/* Aplica la animación a un elemento específico */
+.move-element_2 {
+    animation: move 2s ease-in-out infinite;
+    font-style: italic;
+    text-align: center;
+    color: #2600ff;
+    background: linear-gradient(to right, #5555557b, #fff, #555); /* Colores del subrayado en degradado */
+    border-radius: 20px;
+    border-bottom: 5px solid #00000075; /*s Agrega un subrayado con color personalizado */
+
+}
+
+/*------------------------------------------------*/
+
+/* Aplica la animación a un elemento específico */
+.move-element_3 {
+    animation: move 2s ease-in-out infinite;
+    font-style: italic;
+    text-align: center;
+    color: #2600ff;
+    background: linear-gradient(to right, #5555557b, #fff, #555); /* Colores del subrayado en degradado */
+    border-radius: 20px;
+    border-bottom: 5px solid #00000075; /*s Agrega un subrayado con color personalizado */
+
+}
+
+.hero {
+
+    border-radius: 20px;
+    font-weight: 900; /* Hace la letra más gruesa (puedes ajustar el valor según tus preferencias) */
+    background-image: url('kof.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    border-bottom: 5px solid #4d4b4baf; /* Agrega un subrayado con color personalizado */
+
+}
+
+ul {
+    display: none; /* La lista estará oculta inicialmente */
+    color: #ffffff;
+    border-radius: 20px;
+
+}
+
+
+#toggleButton {
+
+    color: white; /* Color del texto del botón */
+    padding: 10px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    cursor: pointer;
+    border-radius: 20px;
+    color: #000000; /* Cambia el color del texto cuando el cursor está sobre el botón */
+    border-bottom: 5px solid #00000075; /*s Agrega un subrayado con color personalizado */
+
+}
+
+/*------------------------------------------------*/
+
+.titulo_0 {
+    animation: move 2s ease-in-out infinite;
+    font-style: italic;
+    text-align: center;
+    color: #2600ff;
+
+    font-size: 4em; /* 2 veces el tamaño normal del texto */
+    background: linear-gradient(to right, #ffffff87, #91f17e9b, #4012ca97);
+    border-radius: 20px;
+    border-bottom: 5px solid #00000075; /*s Agrega un subrayado con color personalizado */
+
+}
+
+.titulo_1 {
+    animation: move 2s ease-in-out infinite;
+    font-style: italic;
+    text-align: center;
+    color: #2600ff;
+    font-size: 4em; /* 2 veces el tamaño normal del texto */
+    background: linear-gradient(to right, #ffffff87, #91f17e9b, #4012ca97);
+    padding: 20px 35px; /* Ajusta el tamaño del botón ajustando los valores de padding */
+    font-size: 1em;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    border-bottom: 5px solid #00000075; /*s Agrega un subrayado con color personalizado */
+
+}
+
+.boton_0 {
+    padding: 10px 35px; /* Ajusta el tamaño del botón ajustando los valores de padding */
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #0400f000; /* Borde oscuro */
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    font-style: italic;
+    transition: transform 0.3s;
+    transform: scale(0.95);
+    font-weight: 900; /* Hace la letra más gruesa (puedes ajustar el valor según tus preferencias) */
+    background-image: url('Universo1.gif'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    border-bottom: 5px solid #4d4b4baf; /* Agrega un subrayado con color personalizado */
+
+}
+
+    /* Estilo del botón cuando está seleccionado (focus) */
+    .boton_0:hover {
+        animation: parpadeo 3.5s ease-in-out infinite;
+        transform: rotate(12deg);
+        animation: tambaleo 0.8s ease infinite; /* Aplica la animación en hover de forma continua */
+        color: #000000; /* Cambia el color del texto cuando el cursor está sobre el botón */
+        
+      }
+
+          /* Restaura el estado normal al dejar de tambalear (hover) */
+    .boton_0:active,
+    .boton_0:focus {
+      transform: rotate(0);
+    }
+
+    /* Definición de la animación de tambaleo */
+    @keyframes tambaleo {
+        0%, 100% {
+          transform: rotate(0deg);
+        }
+        25% {
+          transform: rotate(-5deg);
+        }
+        50% {
+          transform: rotate(5deg);
+        }
+        75% {
+          transform: rotate(-3deg);
+        }
+      }
+
+      @keyframes parpadeo {
+        0%, 50%, 100% {
+            opacity: 1;
+        }
+        25%, 75% {
+            opacity: 0.5;
+        }
+    }
+
+/*------------------------------------------------*/
+
+.boton_1 {
+    padding: 20px 35px; /* Ajusta el tamaño del botón ajustando los valores de padding */
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    font-style: italic;
+    font-weight: 900; /* Hace la letra más gruesa (puedes ajustar el valor según tus preferencias) */
+    background: linear-gradient(to right, #5555557b, #fff, #555); /* Colores del subrayado en degradado */
+    background-image: url('tormenta.gif'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    border-bottom: 5px solid #00000075; /*s Agrega un subrayado con color personalizado */
+
+}
+
+          /* Estilo del botón cuando está seleccionado (focus) */
+    .boton_1:hover {
+        animation: parpadeo 3.5s ease-in-out infinite;
+        transform: rotate(12deg);
+        animation: tambaleo 0.8s ease infinite; /* Aplica la animación en hover de forma continua */
+        color: #000000; /* Cambia el color del texto cuando el cursor está sobre el botón */
+        
+      }
+
+    /* Definición de la animación de parpadeo */
+    @keyframes parpadeo {
+        0%, 50%, 100% {
+          opacity: 1;
+        }
+        25%, 75% {
+          opacity: 0.5;
+        }
+      }
+
+/*------------------------------------------------*/
+
+
+
+/* Estilo para el contenedor del enlace y la imagen */
+.enlace-con-imagen {
+    display: flex; /* Utilizar un contenedor flexible */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilo para la imagen */
+.enlace-con-imagen img {
+    margin-right: 20px; /* Espacio entre la imagen y el texto del enlace */
+    max-width: 50px; /* Ancho máximo de la imagen */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    text-align: center;
+    border-radius: 5px; /* Bordes redondeados */
+    
+}
+
+/*------------------------------------------------*/
+
+.video-container {
+    overflow: hidden;
+    border-radius: 15px; /* Ajusta este valor según tus preferencias */
+}
+
+    /* Estilo para la imagen flotante */
+    .imagen-flotante {
+
+        width: 30%; /* Ajusta el ancho según tus preferencias */
+        bottom:50px; /* Ajusta la posición vertical según tus preferencias */
+        right: 50px; /* Ajusta la posición horizontal según tus preferencias */
+        border-radius: 50%; /* Ajusta el radio del borde para que sea redondeado */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar un efecto visual */
+        animation: agrandarEncoger 3s linear infinite;
+        border-bottom: 10px solid #00000075; /*s Agrega un subrayado con color personalizado */
+        
+      }
+
+    /* Definición de la animación de agrandar y encoger */
+    @keyframes agrandarEncoger {
+        0%, 100% {
+          transform: translate(1%, 1%) scale(1);
+        }
+        50% {
+          transform: translate(1%, 1%) scale(1.05);
+        }
+      }
+
+    /* Contenedor principal para las imágenes */
+    .contenedor-imagenes {
+        display: flex;
+        justify-content: space-between;
+        
+      }
+
+/*--------------------------------------------------*/
+
+.boton_4 {
+
+  padding: 20px 35px; /* Ajusta el tamaño del botón ajustando los valores de padding */
+  font-size: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  font-style: italic;
+  font-weight: 999; /* Hace la letra más gruesa (puedes ajustar el valor según tus preferencias) */
+  background-image: url('bolaazul.gif'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  background-position: center; /* Centra la imagen de fondo */
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* Puedes ajustar la posición según tus necesidades */
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  border-bottom: 5px solid #282323; /*s Agrega un subrayado con color personalizado */
+  
+
+}
+
+#reloj {
+  font-size: 2em;
+  color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Ajusta el margen según sea necesario */
+}
+
+        /* Estilo del botón cuando está seleccionado (focus) */
+  .boton_4:hover {
+      animation: parpadeo 0.1s ease-in-out infinite;
+      transform: rotate(12deg);
+      animation: tambaleo 0.8s ease infinite; /* Aplica la animación en hover de forma continua */
+      
+    }
+
+    .boton_4.moviendo {
+      animation: tambaleo 0.8s ease infinite; /* Aplica la animación en hover de forma continua */
+  }
+
+  /* Definición de la animación de parpadeo */
+  @keyframes parpadeo {
+      0%, 50%, 100% {
+        opacity: 1;
+      }
+      25%, 75% {
+        opacity: 0.5;
+      }
+    }
+
+/*-------------------------------------------------------*/
+
+.boton_0::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+   45deg,
+   rgba(79, 8, 8, 0.53), rgba(255, 255, 255, 0.678), rgba(0, 0, 0, 0.638), rgba(8, 8, 57, 0.57),
+   rgba(79, 8, 8, 0.53), rgba(255, 255, 255, 0.678), rgba(0, 0, 0, 0.638), rgba(8, 8, 57, 0.57));
+  background-size: 800%;
+  border-radius: 10px;
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  
+  }
+  
+  @keyframes glowing {
+  0% {
+   background-position: 0 0;
+   }
+  
+  50% {
+   background-position: 400%;
+   }
+  
+  100% {
+   background-position: 0 0;
+   }
+  
+  }
+
+  /*-------------------------------------------------*/
+
+  .centro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8; /* Ajusta la opacidad según sea necesario */
+    border-radius: 50%;
+    z-index: -1;
+    animation: escala 6s infinite alternate; /* Animación de escala */
+    border-bottom: 4px solid #ffffff3c; /*s Agrega un subrayado con color personalizado */
+    
+}
+
+@keyframes escala {
+  0% {
+      transform: translate(-50%, -50%) scale(0.5);
+  }
+  100% {
+      transform: translate(-50%, -50%) scale(0.8);
+  }
+}
+
+.contenedor-imagenes1 {
+  position: relative;
+  display: inline-block;
+}
+
+.contenedor-imagenes1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background: linear-gradient(45deg, #39e006bd, #6666ff, #fff200, #ff0000);
+  z-index: -1;
+  animation: fondoAnimado 6s infinite linear;
+  opacity: 0.4; /* Ajusta la opacidad según sea necesario */
+  
+}
+
+@keyframes fondoAnimado {
+  0% {
+      background-position: 0% 0%;
+  }
+  100% {
+      background-position: 100% 100%;
+  }
+}
+
+/*------------------------------------------------*/
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f300005a;
+  position: center;
+  bottom: 0;
+  border-radius: 20px;
+  border-bottom: 5px solid #690000ad; /*s Agrega un subrayado con color personalizado */
+
+}
